@@ -29,4 +29,8 @@
    
       6.git pull origin -to add changes in cloned repository
 
-
+4. to clone sub-branch 
+       1. git init 
+       2. git branch -a      // it will show all the branches
+       3. git remote show origin   
+       4. git clone --branch <branchname> --single-branch <remote-repo-url>    //git clone --branch Two-pages https://github.com/Recruit-Plus/Recruit-plus-UI.git
